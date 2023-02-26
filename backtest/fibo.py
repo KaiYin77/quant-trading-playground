@@ -112,8 +112,6 @@ if __name__ == '__main__':
 
     df = get_historical_data(symbol, timeframe, days)
     levels = calculate_fibonacci_levels(df)
-    print(levels)
-    exit()
     df = create_signals(df, levels)
     df = backtest_strategy(df)
     df = calculate_portfolio_value(df, initial_capital)
