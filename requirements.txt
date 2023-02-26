@@ -2,5 +2,6 @@ binance-connector
 ccxt
 pandas
 matplotlib
+TA-Lib
 
 

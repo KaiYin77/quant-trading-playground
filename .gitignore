@@ -1,1 +1,4 @@
+.DS_Store
 backtest/*.ini
+backtest/records/
+backtest/.DS_Store
