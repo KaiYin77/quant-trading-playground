@@ -1,2 +1,6 @@
 binance-connector
+ccxt
+pandas
+matplotlib
+
 
